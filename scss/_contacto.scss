@@ -1,0 +1,19 @@
+//Variables
+
+//color principal de la pagina (cyan)
+$Primario:rgb(0, 225, 255);
+
+//Fuente principal de la pagina
+
+$Fuente:  'Bebas Neue', cursive;
+
+fieldset{
+    legend{
+        color:$Primario
+    }
+    textarea{
+        width: 400px;
+        height: 200px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+// Titulos/subtitulos/parrafos
+
+//Variables
+
+//color principal de la pagina (cyan)
+$Primario:rgb(0, 225, 255);
+
+//Fuente principal de la pagina
+
+$Fuente:  'Bebas Neue', cursive;
+
+@for $n from 1 through 3 {
+    h#{$n}{
+        color:$Primario;
+        font-family:$Fuente;
+        font-style:italic;
+        font-size:50px/$n + 10px ;
+
+    }
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: $Fuente;
+}

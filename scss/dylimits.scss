@@ -1,0 +1,109 @@
+@import "titulos";
+@import "contacto";
+
+//Variables
+
+//color principal de la pagina (cyan)
+$Primario:rgb(0, 225, 255);
+
+//Fuente principal de la pagina
+
+$Fuente:  'Bebas Neue', cursive;
+
+//Fondo (body)
+
+.fondo{
+    background-color:rgba(0,0,0,0.6);
+    background-image: url("../images/wallpaper3.jpg");
+    background-repeat: round;
+    background-size:contain;
+    animation-name:fondo;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+    animation-timing-function:ease
+
+}
+
+
+//encabezado de pagina (logo :DYLIMITS + Navegador)
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:10px;
+    nav{
+        margin-right: 50px;
+        font-size:  40px;
+        color:$Primario;
+        font-family: $Fuente;
+        a{
+            text-decoration: none;
+        }
+    }
+    .logo{
+        position: sticky;
+        border-style:groove;
+        border-color:$Primario
+    }
+}
+
+
+//DIV'S SECCION INDEX
+
+div{
+    padding-bottom: 30px;
+    color:rgb(255, 255, 255) ;
+    font-family:$Fuente;
+    font-size: 25px;
+    .IndexDiv{
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+}
+
+// SECCION TRENES & BOMBING
+
+.elegir_locacion{
+    background-color: $Primario;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+img{
+    margin: auto;
+    width: 100%;
+}
+
+
+.scale{
+    transition: all 2s;
+}
+
+ .scale:hover{
+  transform: scale(1.1);
+     
+}
+
+//carrousel's de fotos
+
+.medidas_carrousel{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    
+}
+
+
+
+//Pie de pagina "footer"
+
+footer{
+    color: white;
+    font-family: $Fuente;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,94 @@
+h1 {
+  color: #00e1ff;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  font-size: 60px; }
+
+h2 {
+  color: #00e1ff;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  font-size: 35px; }
+
+h3 {
+  color: #00e1ff;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  font-size: 26.66667px; }
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive; }
+
+fieldset legend {
+  color: #00e1ff; }
+
+fieldset textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 20px; }
+
+.fondo {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../images/wallpaper3.jpg");
+  background-repeat: round;
+  background-size: contain;
+  animation-name: fondo;
+  animation-iteration-count: infinite;
+  animation-duration: 50s;
+  animation-timing-function: ease; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 10px; }
+  header nav {
+    margin-right: 50px;
+    font-size: 40px;
+    color: #00e1ff;
+    font-family: "Bebas Neue", cursive; }
+    header nav a {
+      text-decoration: none; }
+  header .logo {
+    position: sticky;
+    border-style: groove;
+    border-color: #00e1ff; }
+
+div {
+  padding-bottom: 30px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px; }
+  div .IndexDiv {
+    margin-top: 30px;
+    padding-top: 20px; }
+
+.elegir_locacion {
+  background-color: #00e1ff;
+  color: black;
+  font-size: 25px;
+  font-style: italic; }
+
+img {
+  margin: auto;
+  width: 100%; }
+
+.scale {
+  transition: all 2s; }
+
+.scale:hover {
+  transform: scale(1.1); }
+
+.medidas_carrousel {
+  margin: auto;
+  width: 700px;
+  height: 500px; }
+
+footer {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px; }

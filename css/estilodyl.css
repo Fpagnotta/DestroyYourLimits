@@ -1,0 +1,247 @@
+
+/* imagen de fondo de toda la pagina*/
+.fondo{
+    background-color:rgba(0,0,0,0.6);
+    background-image: url("../images/wallpaper3.jpg");
+    background-repeat: round;
+    background-size:contain;
+    animation-name:fondo;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+    animation-timing-function:ease
+    
+}
+
+@keyframes fondo{
+    0%{background-image:url(../images/wallpaper3.jpg);}
+    35%{background-image:url(../images/fondo3.jpg);}
+    70%{background-image:url(../images/fondo4.jpg);}
+
+
+}
+
+/* logo de la pagina + navegador*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:10px;
+    
+}
+
+.logo{
+    position: sticky;
+    border-style: groove;
+    border-color:rgb(0, 247, 255) ;
+}
+
+nav{
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 40px;
+    color:rgb(0, 225, 255);
+}
+
+/*titulos,subtitulos y parrafos de todas las paginas*/
+
+h1{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+    font-size: 50px;
+}
+h2{
+    color: rgb(0, 225, 255);
+    font-style: italic;
+    font-size: 40px;
+   
+}
+h3{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+    font-size: 30px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+/*pie de pagina*/
+.footer{
+    color: seashell;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+/*Propiedades de sub navegadores de street y trenes*/
+
+#Argentina{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+}
+#Chile{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+}
+#Compilado{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+}
+#Europa{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+}
+#old{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+}
+#whole{
+    color: rgb(0, 247, 255);
+    font-style: italic;
+}
+
+.subNav{
+    color: rgb(255, 255, 255);
+    font-size:30px;
+    margin-left:20px;
+}
+
+.bott{
+    background-color: rgb(0, 247, 255) ;
+    color: black;
+    font-size:30px;
+
+    
+}
+
+/*propiedades de la fuente*/
+
+.bold{
+    font-weight: bold;
+}
+
+.noLine{
+    text-decoration: none;
+}
+
+.font{
+    font-family: 'Bebas Neue', cursive;
+}
+.contac{
+    color: rgb(0, 247, 255);
+font-size: 25px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*las cajas de los elementos*/
+
+div{
+    /*padding-top: 30px;
+    margin-left: 30px;*/
+    /*display: flex;*/
+    /*align-content: space-between;*/
+    padding-bottom: 30px;
+    color:rgb(255, 255, 255) ;
+    font-style: normal;
+    font-size: 25px;
+    /*display: grid;
+    grid-template-columns: repeat(2,1fr)*/
+
+}
+
+/* Div's de la mainpage*/
+
+
+.IndexDiv1{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    display: flex;
+
+
+}
+
+    
+
+.IndexDiv2{
+    width: 650px;
+    height: 350px;
+    margin-top: 30px;
+    padding-top: 20px;
+    /*display: flex;
+    justify-content: flex-end;*/ 
+
+    
+    
+}
+/*Div's de los main de paginas secundarias */
+
+.MainDiv{
+    margin-top: 30px;
+    margin-left:40px ;
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+}
+img{
+    width: 100%;
+    margin:auto ;
+}
+
+/*Lupa y text area en formulario de contacto*/
+
+.lupa{
+    transition: all 2s;
+}
+
+.lupa:hover{
+    width: 300px;
+    font-size: 35px;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+}
+
+/*Propiedad Scale en la galeria de fotos*/
+
+
+.scale{
+   transition: all 2s;
+  
+    
+}
+
+.scale:hover{
+ transform: scale(1.1);
+    
+}
+
+.carru{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    
+}
+
+
+
+    
+   
+
+
