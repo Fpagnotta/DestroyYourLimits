@@ -46,6 +46,15 @@ header{
         border-style:groove;
         border-color:$Primario
     }
+    ul li{
+        font-family:$Fuente ;
+        font-size: 40px;
+        font-style: italic;
+       
+    }
+    ul li a{
+        color:$Primario;
+    }
 }
 
 

@@ -55,6 +55,12 @@ header {
     position: sticky;
     border-style: groove;
     border-color: #00e1ff; }
+  header ul li {
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px;
+    font-style: italic; }
+  header ul li a {
+    color: #00e1ff; }
 
 div {
   padding-bottom: 30px;
