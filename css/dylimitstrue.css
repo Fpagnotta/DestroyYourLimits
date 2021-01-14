@@ -42,10 +42,10 @@ fieldset textarea {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  top: 10px; }
+  align-items: center; }
   header nav {
-    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
     font-size: 40px;
     color: #00e1ff;
     font-family: "Bebas Neue", cursive; }
