@@ -32,27 +32,26 @@ header{
     justify-content: space-between;
     align-items: center;
     nav{
-        display: flex;
-        justify-content: space-between;
         font-size:  40px;
         color:$Primario;
         font-family: $Fuente;
         a{
             text-decoration: none;
+            color:$Primario
         }
-        
+    div{
+        background-color: black;
     }
-
+        
     ul li{
-
+        color: $Primario;
         font-family:$Fuente ;
         font-size: 40px;
         font-style: italic;
        
     }
-    ul li a{
-        color:$Primario;
     }
+
 }
 
 

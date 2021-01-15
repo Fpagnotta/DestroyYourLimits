@@ -44,19 +44,19 @@ header {
   justify-content: space-between;
   align-items: center; }
   header nav {
-    display: flex;
-    justify-content: space-between;
     font-size: 40px;
     color: #00e1ff;
     font-family: "Bebas Neue", cursive; }
     header nav a {
-      text-decoration: none; }
-  header ul li {
-    font-family: "Bebas Neue", cursive;
-    font-size: 40px;
-    font-style: italic; }
-  header ul li a {
-    color: #00e1ff; }
+      text-decoration: none;
+      color: #00e1ff; }
+    header nav div {
+      background-color: black; }
+    header nav ul li {
+      color: #00e1ff;
+      font-family: "Bebas Neue", cursive;
+      font-size: 40px;
+      font-style: italic; }
 
 div {
   padding-bottom: 30px;
