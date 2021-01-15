@@ -40,13 +40,11 @@ header{
         a{
             text-decoration: none;
         }
+        
     }
-    .logo{
-        position: sticky;
-        border-style:groove;
-        border-color:$Primario
-    }
+
     ul li{
+
         font-family:$Fuente ;
         font-size: 40px;
         font-style: italic;

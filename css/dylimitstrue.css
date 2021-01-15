@@ -51,10 +51,6 @@ header {
     font-family: "Bebas Neue", cursive; }
     header nav a {
       text-decoration: none; }
-  header .logo {
-    position: sticky;
-    border-style: groove;
-    border-color: #00e1ff; }
   header ul li {
     font-family: "Bebas Neue", cursive;
     font-size: 40px;
