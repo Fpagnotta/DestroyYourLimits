@@ -59,6 +59,7 @@ div {
   font-family: "Bebas Neue", cursive;
   font-size: 25px; }
   div .IndexDiv {
+    height: 315px;
     overflow: hidden;
     margin-top: 20px;
     padding-top: 20px;
