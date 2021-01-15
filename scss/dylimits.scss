@@ -31,41 +31,46 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    nav{
-        font-size:  40px;
-        color:$Primario;
-        font-family: $Fuente;
-        a{
-            text-decoration: none;
-            color:$Primario
-        }
+   
     div{
         background-color: black;
-    }
+    ul{
+        padding-top:30px ;
         
-    ul li{
+    
+    li{
         color: $Primario;
         font-family:$Fuente ;
-        font-size: 40px;
+        font-size:45px;
         font-style: italic;
        
+        }
     }
     }
-
+    
 }
+
 
 
 //DIV'S SECCION INDEX
 
 div{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     color:rgb(255, 255, 255) ;
     font-family:$Fuente;
     font-size: 25px;
     .IndexDiv{
-        margin-top: 30px;
+        overflow: hidden;
+        margin-top: 20px;
         padding-top: 20px;
+        position: relative;
+        
     }
+}
+.video{
+   width: 100%;
+   height: 100%;
+    
 }
 
 // SECCION TRENES & BOMBING
