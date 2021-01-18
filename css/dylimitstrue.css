@@ -53,6 +53,9 @@ header {
         font-size: 45px;
         font-style: italic; }
 
+.navbar {
+  padding: 0px; }
+
 div {
   padding-bottom: 10px;
   color: white;
@@ -62,7 +65,7 @@ div {
     height: 315px;
     overflow: hidden;
     margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     position: relative; }
 
 .video {
